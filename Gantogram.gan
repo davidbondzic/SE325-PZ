@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Projekat1-Gant" company="" webLink="http://" view-date="2024-06-30" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3309" locale="en_US">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd15" name="Notes" width="20" order="-1"/>
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="6f3913239e9448d6bdd1f523a77c7d66" name="Definisanje cilja projekta" meeting="false" start="2024-07-01" duration="3" complete="0" expand="true"/>
+        <task id="1" uid="01ca98ab9d4e45c79cd2da78d6876faf" name="Prikupljanje zahteva" meeting="false" start="2024-07-04" duration="3" complete="0" expand="true"/>
+        <task id="2" uid="c25e81e3a97a4bebbda6c87771cbdcab" name="Specifikacija zahteva (SRS)" meeting="false" start="2024-07-09" duration="4" complete="0" expand="true"/>
+        <task id="3" uid="95942b24e3ba4837917cd7dfcc647508" name="Definisanje budžeta" meeting="false" start="2024-07-15" duration="3" complete="0" expand="true"/>
+        <task id="4" uid="ed671ad0b06d4031852c3ac84e275c2f" name="Formiranje tima" meeting="false" start="2024-07-15" duration="3" complete="0" expand="true"/>
+        <task id="5" uid="f48ae3753b9b4d848087db2b25c4c5d9" name="Definisanje rokova" meeting="false" start="2024-07-15" duration="3" complete="0" expand="true"/>
+        <task id="6" uid="c8ff43f7a0d5449796ed4d53b561fa41" name="Dizajn arhitekture sistema" meeting="false" start="2024-07-18" duration="2" complete="0" expand="true"/>
+        <task id="7" uid="8f3d5de0510d4b3582cecbf1664a7e19" name="Razvoj baze podataka" meeting="false" start="2024-07-22" duration="5" complete="0" expand="true"/>
+        <task id="8" uid="eb96f1d865e044a1bdac5eb81286dbf0" name="Razvoj korisničkog interfejsa" meeting="false" start="2024-07-22" duration="5" complete="0" expand="true"/>
+        <task id="9" uid="139d4f0a75604826b195f19e7e271d43" name="Razvoj funkcionalnosti" meeting="false" start="2024-07-29" duration="15" complete="0" expand="true"/>
+        <task id="10" uid="6a3e14224c4a4f20ba7109894b81470e" name="Implementacija API integracija" meeting="false" start="2024-08-19" duration="5" complete="0" expand="true"/>
+        <task id="11" uid="5006df6506a14160beaa09256eb421ac" name="Unitarno testiranje" meeting="false" start="2024-08-26" duration="2" complete="0" expand="true"/>
+        <task id="12" uid="6e58d9b925a14994aa21887d3f6a2e21" name="Integraciono testiranje" meeting="false" start="2024-08-28" duration="3" complete="0" expand="true"/>
+        <task id="13" uid="4203c2ca95e94597aa2058259d692157" name="Sistematsko testiranje" meeting="false" start="2024-09-02" duration="3" complete="0" expand="true"/>
+        <task id="14" uid="e302f7b3c0f14444ad7d3da35042f4af" name="Alfa testiranje" meeting="false" start="2024-09-05" duration="2" complete="0" expand="true"/>
+        <task id="15" uid="9f95b87a33964d959ebcf18fbff220d9" name="Beta testiranje" meeting="false" start="2024-09-09" duration="2" complete="0" expand="true"/>
+        <task id="16" uid="05b3391ef0044b03b7736e360fbd9885" name="Ispravljanje grešaka" meeting="false" start="2024-09-11" duration="5" complete="0" expand="true"/>
+        <task id="17" uid="62126035e97745ad8eaacd8006eee673" name="Isporuka sistema na tržište" meeting="false" start="2024-09-18" duration="2" complete="0" expand="true"/>
+        <task id="18" uid="b4660fec406e48f6983de91832fe731a" name="Anketiranje krajnjih korisnika" meeting="false" start="2024-09-20" duration="1" complete="0" expand="true"/>
+        <task id="19" uid="0015a9eeb9a541dca7e1397163c06b0c" name="Dodavanje novih funkcionalnosti" meeting="false" start="2024-09-23" duration="5" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
